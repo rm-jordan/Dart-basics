@@ -24,7 +24,7 @@ void main() {
     ..strokeCap = 'round'
     ..strokeWidth = 5.0;
 
-  //Typecast (rare)
+  //Typecast (rare) ('as' operator)
   var number = 23 as String;
   number is String; // true
 }

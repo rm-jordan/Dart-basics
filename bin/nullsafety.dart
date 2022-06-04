@@ -1,3 +1,7 @@
+
+void main() {
+
+
 int age = 75; // non-nullable
 int age = null; // error
 
@@ -17,3 +21,4 @@ String? answer;
 String result = answer; // error;
 
 String result = answer! // works;
+}
